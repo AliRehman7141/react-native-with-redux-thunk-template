@@ -28,7 +28,6 @@ const SignupScreen = (props) => {
 
     const nameRef = useRef(null)
     const emailRef = useRef(null)
-    const usernameRef = useRef(null)
     const passwordRef = useRef(null)
     const passwordConfirmRef = useRef(null)
 
@@ -144,7 +143,7 @@ const SignupScreen = (props) => {
                             setEmail(text.toLocaleLowerCase())
                         }}
                         onSubmitEditing={() => {
-                            usernameRef?.current?.focus()
+                            passwordRef?.current?.focus()
                         }}
                     />
                     <InputField
