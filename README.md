@@ -15,7 +15,7 @@ Follow the official docs [here](https://reactnative.dev/docs/environment-setup).
 
 Download Xcode version 13. You can find all available versions of Xcode at [Apple's Developer Portal 🔐](http://developer.apple.com/download/more/).
 
-Ask your mentor to add you on the [firebase.console](https://console.firebase.google.com/project/onion-app-e3149/settings/iam) to be able to release.
+Ask your mentor to add you on the [firebase.console](https://console.firebase.google.com/project/vendor-26b91/settings/iam) to be able to release.
 
 ### Setting up Android
 
@@ -23,7 +23,7 @@ Ask your mentor to add you on the [firebase.console](https://console.firebase.go
 
 Follow the official docs [here](https://reactnative.dev/docs/environment-setup). Select "React Native CLI Quickstart" tab
 
-2. Create a virtual device:
+2. Create a android virtual device:
 
 [Create a virtual device](https://developer.android.com/studio/run/managing-avds) on which to run the Android app.
 
@@ -51,10 +51,10 @@ Ask for your apple developer account to be added on the project and login with y
 Open the app in Xcode:
 
 ```sh
-open Onion.xcworkspace
+open Vendor.xcworkspace
 ```
 
-From Xcode, run the app by hitting `Product > Run` (or ⌘R). This will start the Onion app in an iOS simulator, pointed at Onion's staging environment.
+From Xcode, run the app by hitting `Product > Run` (or ⌘R). This will start the Vendor app in an iOS simulator, pointed at Vendor staging environment.
 
 ### Run the Android app
 
@@ -62,13 +62,13 @@ From Xcode, run the app by hitting `Product > Run` (or ⌘R). This will start th
 yarn android
 ```
 
-This will start the Onion app in an Android emulator, pointed at Onion's staging environment.
+This will start the Vendor app in an Android emulator, pointed at Vendor staging environment.
 
 ## Connect a device
 
 #### iOS
 We use Xcode's auto-codesigning. It should magically "just work" if you log in to Xcode with an iTunes account
-which is on the `Shuja Ahmad` team. When you connect an iPhone to your machine, Xcode will prompt you to join a team, If you have to choose a team, choose `Shuja Ahmad`.
+which is on the `Ali Rehman` team. When you connect an iPhone to your machine, Xcode will prompt you to join a team, If you have to choose a team, choose `Ali Rehman`.
 
 #### Android
 1. On your Android device go to Settings > About Phone
